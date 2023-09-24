@@ -9,8 +9,7 @@ import jakarta.persistence.InheritanceType;
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public class Player
-{
-@Id
+{@Id
 private int id;
     private String name;
     private int age;
